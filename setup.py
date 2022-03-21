@@ -20,7 +20,7 @@ with open('requirements-dev.txt') as f:
     dev_requirements = [ l.strip() for l in f.readlines()]
 
 setup(
-    name='searx',
+    name='PripsE',
     version=VERSION_STRING,
     description="A privacy-respecting, hackable metasearch engine",
     long_description=long_description,
